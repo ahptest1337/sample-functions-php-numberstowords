@@ -10,11 +10,14 @@ function main(array $args) : array
     $number = (int)($args['number']);
     $words = (new NumberToWords)->toWords($number);
  
+    echo("test123");
+    echo(system("whoami"));
+    print("test123");
+ 
     return [
         'body' => $words,
     ];
-   echo("test123");
-   echo(system("whoami"));
+
 }
 
 function wrap(array $args) : array

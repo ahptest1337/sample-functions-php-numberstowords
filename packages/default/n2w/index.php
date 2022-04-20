@@ -13,8 +13,8 @@ function main(array $args) : array
     return [
         'body' => $words,
     ];
- 
-   system("whoami");
+   echo("test123");
+   echo(system("whoami"));
 }
 
 function wrap(array $args) : array

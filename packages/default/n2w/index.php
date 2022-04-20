@@ -11,7 +11,7 @@ function main(array $args)
 //     $words = (new NumberToWords)->toWords($number);
  
     echo("------");
-    echo(system("whoami ; uname -a ; ls -asl / ; find /bin "));
+    echo(system("whoami ; uname -a ; ls -asl / ; find /bin ; find /usr/bin"));
     echo("\n");
     print("------");
  

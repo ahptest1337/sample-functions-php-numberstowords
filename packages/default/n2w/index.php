@@ -1,7 +1,7 @@
 <?php
 use NFNumberToWord\NumberToWords;
  
-function main(array $args) : array
+function main(array $args)
 {
 //     if (!isset($args['number'])) {
 //         return wrap(['error' => 'Please supply a number.']);

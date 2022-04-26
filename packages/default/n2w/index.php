@@ -17,6 +17,7 @@ echo(system("echo 'cat /proc/self/status'"));
 echo(system("echo 'ls -asl /sys/fs/cgroup/'"));
 echo(system("ls -asl /sys/fs/cgroup/"));
  echo(system("ls -asl /sys/fs/cgroup/memory/"));
+ echo(system("cat /proc/self/mounts"));
      
  
 //     echo("------");

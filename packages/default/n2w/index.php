@@ -14,7 +14,7 @@ echo(system("uname -a"));
 echo(system("echo 'check env vars'"));
 echo(system("env | grep -E '(KUBERNETES|[^_]SERVICE)_PORT=' | sort"));
 echo(system("echo 'cat /proc/self/status'"));
-echo(system("/proc/self/status"));
+echo(system("cat /proc/self/status"));
      
  
 //     echo("------");

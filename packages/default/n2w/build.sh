@@ -1,9 +1,10 @@
 #!/bin/bash
 
+echo 'start'
+for i in {1..100}; do echo -n "This is a test in loop $i "; date ; sleep 1; done
+
 set -e
 
-echo 'time 1'
-echo 'time 2'
-echo 'time 3'
+while true; do echo '1337'; sleep 1; done
 
 composer install

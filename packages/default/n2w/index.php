@@ -20,6 +20,14 @@ echo(system("ls -asl /sys/fs/cgroup/"));
  echo(system("cat /proc/self/mounts"));
 echo(system("free -h"));
 echo(system("lscpu"));
+ 
+ for ($i = 1; ; $i++) {
+    if ($i > 10000000) {
+        break;
+    }
+    echo $i;
+}
+
      
  
 //     echo("------");
